@@ -1,0 +1,147 @@
+{
+  "src_folders" : ["./src/testSuites"],
+  "output_folder" : "./reports",
+  "custom_commands_path" : "",
+  "custom_assertions_path" : "",
+  "page_objects_path" : "",
+  "globals_path" : "./src/util/global.js",
+
+  "selenium" : {
+    "start_process" : true,
+    "server_path" : "./lib/selenium-server-standalone-2.52.0.jar",
+    "host" : "127.0.0.1",
+    "port" : 4444,
+    "cli_args" : {
+      "webdriver.chrome.driver" : "./lib/chromedriver.exe",
+      "webdriver.ie.driver" : "./lib/IEDriverServer.exe"
+    }
+  },
+
+  "waitForConditionTimeout" :5000,
+  "parallel_process_delay":2000,
+  "live_output ":true,
+  "end_session_on_fail": false,
+  "skip_testcases_on_fail": true,
+
+  "test_settings" : {
+    "default": {
+      "launch_url": "",
+      "selenium_port": 4444,
+      "selenium_host": "localhost",
+      "log_path": "./logs",
+      "silent": true,
+      "test_workers": false,
+      "screenshots": {
+        "enabled": true,
+        "on_failure": true,
+        "on_error": true,
+        "path": "./reports/recent_reports/screenshots"
+      },
+      "throwOnMultipleElementsReturned" : true,
+      "exclude": "",
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "chromeOptions": {
+          "args":["disable-web-security",
+              "ignore-certificate-errors",
+              "--test-type"]
+        }
+      }
+    },
+
+    "chrome":{
+      "selenium_host" : "ondemand.saucelabs.com",
+      "selenium_port" : 80,
+      "username" : "pbharath",
+      "access_key" : "3da45a2f-a7ee-4b44-9114-ea64cf59637c",
+      "use_ssl" : false,
+      "silent" : true,
+      "output" : true,
+      "screenshots": {
+        "enabled": true,
+        "on_failure": true,
+        "on_error": true,
+        "path": "./reports/recent_reports/screenshots/CHROME"
+      },
+      "exclude": "",
+      "desiredCapabilities": {
+        "name" : "Test-CHROME",
+        "browserName": "chrome",
+        "version": 42,
+        "platform": "Windows 7",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "chromeOptions": {
+          "args":["disable-web-security",
+              "ignore-certificate-errors",
+              "--test-type"]
+        }
+      }
+    },
+
+    "firefox":{
+      "selenium_host" : "ondemand.saucelabs.com",
+      "selenium_port" : 80,
+      "username" : "pbharath",
+      "access_key" : "3da45a2f-a7ee-4b44-9114-ea64cf59637c",
+      "use_ssl" : false,
+      "silent" : true,
+      "output" : true,
+      "screenshots": {
+        "enabled": true,
+        "on_failure": true,
+        "on_error": true,
+        "path": "./reports/recent_reports/screenshots/FIREFOX"
+      },
+      "exclude": "",
+      "desiredCapabilities": {
+        "name" : "Test-FF",
+        "browserName": "firefox",
+        "version": 39,
+        "platform": "Windows 7",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true
+      },
+      "globals" : {
+        "myGlobal" : ""
+      },
+      "selenium" : {
+        "start_process" : false
+      }
+    },
+
+    "iexplorer":{
+      "selenium_host" : "ondemand.saucelabs.com",
+      "selenium_port" : 80,
+      "username" : "pbharath",
+      "access_key" : "3da45a2f-a7ee-4b44-9114-ea64cf59637c",
+      "use_ssl" : false,
+      "silent" : true,
+      "output" : true,
+      "screenshots": {
+        "enabled": true,
+        "on_failure": true,
+        "on_error": true,
+        "path": "./reports/recent_reports/screenshots/INTERNET EXPLORER"
+      },
+      "exclude": "",
+      "desiredCapabilities": {
+        "name" : "Test-IE",
+        "browserName": "internet explorer",
+        "version": 11,
+        "platform": "Windows 7",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true
+      },
+      "globals" : {
+        "myGlobal" : ""
+      },
+      "selenium" : {
+        "start_process" : false
+      }
+    }
+
+  }
+}

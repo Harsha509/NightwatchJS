@@ -1,0 +1,7 @@
+
+    {
+      "shortWait": 3000,
+      "mediumWait": 5000,
+      "longWait": 10000,
+      "veryLongWait": 20000
+    }

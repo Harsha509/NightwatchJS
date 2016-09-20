@@ -1,0 +1,33 @@
+[2016-09-20 13:34:19.042] [INFO] log - mail ID field in login page - was found
+[2016-09-20 13:34:19.329] [INFO] log - Entered value successfully into - mail ID field in login page
+[2016-09-20 13:34:19.452] [INFO] log - next button in login page - was found
+[2016-09-20 13:34:19.633] [INFO] log - clicked on - next button in login page
+[2016-09-20 13:34:20.451] [INFO] log - password field in login page - was found
+[2016-09-20 13:34:20.586] [INFO] log - Entered value successfully into - password field in login page
+[2016-09-20 13:34:20.630] [INFO] log - login button in login page - was found
+[2016-09-20 13:34:20.713] [INFO] log - clicked on - login button in login page
+[2016-09-20 13:34:26.050] [INFO] log - compose button in home page - was found
+[2016-09-20 13:34:26.838] [INFO] log - Compose button in home pagew - was found
+[2016-09-20 13:34:27.464] [INFO] log - clicked on - Compose button in home pagew
+[2016-09-20 13:34:28.461] [INFO] log - 'to' mail id' field in compose email window - was found
+[2016-09-20 13:34:30.279] [INFO] log - Entered value successfully into - 'to' mail id' field in compose email window
+[2016-09-20 13:34:30.350] [INFO] log - subject field in compose email window - was found
+[2016-09-20 13:34:30.983] [INFO] log - Entered value successfully into - subject field in compose email window
+[2016-09-20 13:34:31.147] [INFO] log - mail body field in compose email window - was found
+[2016-09-20 13:34:32.197] [INFO] log - Entered value successfully into - mail body field in compose email window
+[2016-09-20 13:34:32.456] [INFO] log - send button in compose email window - was found
+[2016-09-20 13:34:32.664] [INFO] log - clicked on - send button in compose email window
+[2016-09-20 13:34:33.270] [INFO] log - mail sent message on the top in home page - was found
+[2016-09-20 13:34:33.359] [INFO] log - view message link in home page - was found
+[2016-09-20 13:34:33.442] [INFO] log - clicked on - view message link in home page
+[2016-09-20 13:34:36.654] [INFO] log - undefined
+[2016-09-20 13:34:36.655] [ERROR] log - Unable to find element - sent mail body message in sent modal in time - 3 Seconds
+[2016-09-20 13:34:48.057] [INFO] log - multiple windows link - was found
+[2016-09-20 13:34:48.146] [INFO] log - clicked on - multiple windows link
+[2016-09-20 13:34:49.246] [INFO] log - new window link - was found
+[2016-09-20 13:34:49.325] [INFO] log - clicked on - new window link
+[2016-09-20 13:34:50.339] [INFO] log - child window handler=====> CDwindow-edefd339-9438-4b01-aca5-08db7ea492fc
+[2016-09-20 13:34:52.537] [INFO] log - parent window handler=====> CDwindow-6f2b783e-5c9f-46cb-945b-b08d35cad1a3
+[2016-09-20 13:35:00.646] [INFO] log - "All Day" element to be dragged - was found
+[2016-09-20 13:35:02.661] [INFO] log - drag and drop - was found
+[2016-09-20 13:35:02.764] [INFO] log - drag and drop - was found

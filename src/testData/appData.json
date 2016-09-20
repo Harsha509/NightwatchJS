@@ -1,0 +1,12 @@
+
+{
+  "gmailURL": "http://mail.google.com",
+  "gmailUser": "sitetest150@gmail.com",
+  "gmailPassword":"qwerty@#$",
+  "emailSubject": "Test eMail",
+  "emailBodyMessage": "Hi, This is a sample mail for testing Nightwatchjs tool",
+  "emailBodyMessage_Failure": "Automation test",
+  "theInternetPageUrl" : "https://the-internet.herokuapp.com/",
+  "calenderUrl" : "http://fullcalendar.io/",
+  "textInURL" : "inbox"
+}

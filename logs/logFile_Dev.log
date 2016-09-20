@@ -1,0 +1,188 @@
+13:33:52.544 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to ./lib/chromedriver.exe
+Setting system property webdriver.ie.driver to ./lib/IEDriverServer.exe
+13:33:52.833 INFO - Java: Oracle Corporation 25.101-b13
+13:33:52.833 INFO - OS: Windows 7 6.1 amd64
+13:33:52.857 INFO - v2.52.0, with Core v2.52.0. Built from revision 4c2593c
+13:33:53.010 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+13:33:53.010 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+13:33:53.023 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform VISTA
+13:33:53.455 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+13:33:53.456 INFO - Selenium Server is up and running
+13:33:54.531 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Gmail Functionality Suite, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]])
+13:33:54.558 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Gmail Functionality Suite, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]
+Starting ChromeDriver (v2.9.248315) on port 18249
+13:34:07.966 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Gmail Functionality Suite, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]]
+13:34:08.034 INFO - Executing: [maximise window])
+13:34:10.511 INFO - Done: [maximise window]
+13:34:10.520 INFO - Executing: [get: http://mail.google.com])
+13:34:18.697 INFO - Done: [get: http://mail.google.com]
+13:34:18.707 INFO - Executing: [find elements: By.cssSelector: input[id=Email]])
+13:34:19.040 INFO - Done: [find elements: By.cssSelector: input[id=Email]]
+13:34:19.055 INFO - Executing: [find element: By.cssSelector: input[id=Email]])
+13:34:19.130 INFO - Done: [find element: By.cssSelector: input[id=Email]]
+13:34:19.150 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on XP (b0765463c6fecc0f4e9f3181e911aa10)] -> css selector: input[id=Email]], [s, i, t, e, t, e, s, t, 1, 5, 0, @, g, m, a, i, l, ., c, o, m]])
+13:34:19.329 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on XP (b0765463c6fecc0f4e9f3181e911aa10)] -> css selector: input[id=Email]], [s, i, t, e, t, e, s, t, 1, 5, 0, @, g, m, a, i, l, ., c, o, m]]
+13:34:19.341 INFO - Executing: [find elements: By.cssSelector: input[id=next]])
+13:34:19.451 INFO - Done: [find elements: By.cssSelector: input[id=next]]
+13:34:19.459 INFO - Executing: [find element: By.cssSelector: input[id=next]])
+13:34:19.580 INFO - Done: [find element: By.cssSelector: input[id=next]]
+13:34:19.585 INFO - Executing: [click: 1 [[ChromeDriver: chrome on XP (b0765463c6fecc0f4e9f3181e911aa10)] -> css selector: input[id=next]]])
+13:34:19.633 INFO - Done: [click: 1 [[ChromeDriver: chrome on XP (b0765463c6fecc0f4e9f3181e911aa10)] -> css selector: input[id=next]]]
+13:34:19.646 INFO - Executing: [find elements: By.cssSelector: input[id=Passwd]])
+13:34:19.927 INFO - Done: [find elements: By.cssSelector: input[id=Passwd]]
+13:34:20.437 INFO - Executing: [find elements: By.cssSelector: input[id=Passwd]])
+13:34:20.451 INFO - Done: [find elements: By.cssSelector: input[id=Passwd]]
+13:34:20.459 INFO - Executing: [find element: By.cssSelector: input[id=Passwd]])
+13:34:20.488 INFO - Done: [find element: By.cssSelector: input[id=Passwd]]
+13:34:20.498 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on XP (b0765463c6fecc0f4e9f3181e911aa10)] -> css selector: input[id=Passwd]], [q, w, e, r, t, y, @, #, $]])
+13:34:20.587 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on XP (b0765463c6fecc0f4e9f3181e911aa10)] -> css selector: input[id=Passwd]], [q, w, e, r, t, y, @, #, $]]
+13:34:20.600 INFO - Executing: [find elements: By.cssSelector: input[id=signIn]])
+13:34:20.629 INFO - Done: [find elements: By.cssSelector: input[id=signIn]]
+13:34:20.638 INFO - Executing: [find element: By.cssSelector: input[id=signIn]])
+13:34:20.662 INFO - Done: [find element: By.cssSelector: input[id=signIn]]
+13:34:20.668 INFO - Executing: [click: 3 [[ChromeDriver: chrome on XP (b0765463c6fecc0f4e9f3181e911aa10)] -> css selector: input[id=signIn]]])
+13:34:20.713 INFO - Done: [click: 3 [[ChromeDriver: chrome on XP (b0765463c6fecc0f4e9f3181e911aa10)] -> css selector: input[id=signIn]]]
+13:34:20.725 INFO - Executing: [find elements: By.cssSelector: .z0])
+13:34:21.243 INFO - Done: [find elements: By.cssSelector: .z0]
+13:34:21.748 INFO - Executing: [find elements: By.cssSelector: .z0])
+13:34:24.064 INFO - Done: [find elements: By.cssSelector: .z0]
+13:34:24.572 INFO - Executing: [find elements: By.cssSelector: .z0])
+13:34:25.385 INFO - Done: [find elements: By.cssSelector: .z0]
+13:34:25.894 INFO - Executing: [find elements: By.cssSelector: .z0])
+13:34:26.048 INFO - Done: [find elements: By.cssSelector: .z0]
+13:34:26.058 INFO - Executing: [get current url])
+13:34:26.659 INFO - Done: [get current url]
+13:34:26.698 INFO - Executing: [find elements: By.cssSelector: .z0])
+13:34:26.836 INFO - Done: [find elements: By.cssSelector: .z0]
+13:34:26.849 INFO - Executing: [find element: By.cssSelector: .z0])
+13:34:27.379 INFO - Done: [find element: By.cssSelector: .z0]
+13:34:27.385 INFO - Executing: [click: 4 [[ChromeDriver: chrome on XP (b0765463c6fecc0f4e9f3181e911aa10)] -> css selector: .z0]])
+13:34:27.462 INFO - Done: [click: 4 [[ChromeDriver: chrome on XP (b0765463c6fecc0f4e9f3181e911aa10)] -> css selector: .z0]]
+13:34:27.473 INFO - Executing: [find elements: By.cssSelector: textarea[name=to]])
+13:34:27.575 INFO - Done: [find elements: By.cssSelector: textarea[name=to]]
+13:34:28.083 INFO - Executing: [find elements: By.cssSelector: textarea[name=to]])
+13:34:28.462 INFO - Done: [find elements: By.cssSelector: textarea[name=to]]
+13:34:28.488 INFO - Executing: [find element: By.cssSelector: textarea[name=to]])
+13:34:29.027 INFO - Done: [find element: By.cssSelector: textarea[name=to]]
+13:34:29.039 INFO - Executing: [send keys: 5 [[ChromeDriver: chrome on XP (b0765463c6fecc0f4e9f3181e911aa10)] -> css selector: textarea[name=to]], [s, i, t, e, t, e, s, t, 1, 5, 0, @, g, m, a, i, l, ., c, o, m]])
+13:34:30.279 INFO - Done: [send keys: 5 [[ChromeDriver: chrome on XP (b0765463c6fecc0f4e9f3181e911aa10)] -> css selector: textarea[name=to]], [s, i, t, e, t, e, s, t, 1, 5, 0, @, g, m, a, i, l, ., c, o, m]]
+13:34:30.287 INFO - Executing: [find elements: By.cssSelector: input[name=subjectbox]])
+13:34:30.350 INFO - Done: [find elements: By.cssSelector: input[name=subjectbox]]
+13:34:30.363 INFO - Executing: [find element: By.cssSelector: input[name=subjectbox]])
+13:34:30.527 INFO - Done: [find element: By.cssSelector: input[name=subjectbox]]
+13:34:30.533 INFO - Executing: [send keys: 6 [[ChromeDriver: chrome on XP (b0765463c6fecc0f4e9f3181e911aa10)] -> css selector: input[name=subjectbox]], [T, e, s, t,  , e, M, a, i, l]])
+13:34:30.984 INFO - Done: [send keys: 6 [[ChromeDriver: chrome on XP (b0765463c6fecc0f4e9f3181e911aa10)] -> css selector: input[name=subjectbox]], [T, e, s, t,  , e, M, a, i, l]]
+13:34:30.993 INFO - Executing: [find elements: By.cssSelector: .editable.LW-avf])
+13:34:31.147 INFO - Done: [find elements: By.cssSelector: .editable.LW-avf]
+13:34:31.157 INFO - Executing: [find element: By.cssSelector: .editable.LW-avf])
+13:34:31.288 INFO - Done: [find element: By.cssSelector: .editable.LW-avf]
+13:34:31.297 INFO - Executing: [send keys: 7 [[ChromeDriver: chrome on XP (b0765463c6fecc0f4e9f3181e911aa10)] -> css selector: .editable.LW-avf], [H, i, ,,  , T, h, i, s,  , i, s,  , a,  , s, a, m, p, l, e,  , m, a, i, l,  , f, o, r,  , t, e, s, t, i, n, g,  , N, i, g, h, t, w, a, t, c, h, j, s,  , t, o, o, l]])
+13:34:32.197 INFO - Done: [send keys: 7 [[ChromeDriver: chrome on XP (b0765463c6fecc0f4e9f3181e911aa10)] -> css selector: .editable.LW-avf], [H, i, ,,  , T, h, i, s,  , i, s,  , a,  , s, a, m, p, l, e,  , m, a, i, l,  , f, o, r,  , t, e, s, t, i, n, g,  , N, i, g, h, t, w, a, t, c, h, j, s,  , t, o, o, l]]
+13:34:32.205 INFO - Executing: [find elements: By.xpath: //div[contains(text(),'Send')]])
+13:34:32.456 INFO - Done: [find elements: By.xpath: //div[contains(text(),'Send')]]
+13:34:32.464 INFO - Executing: [find element: By.xpath: //div[contains(text(),'Send')]])
+13:34:32.558 INFO - Done: [find element: By.xpath: //div[contains(text(),'Send')]]
+13:34:32.566 INFO - Executing: [click: 8 [[ChromeDriver: chrome on XP (b0765463c6fecc0f4e9f3181e911aa10)] -> xpath: //div[contains(text(),'Send')]]])
+13:34:32.665 INFO - Done: [click: 8 [[ChromeDriver: chrome on XP (b0765463c6fecc0f4e9f3181e911aa10)] -> xpath: //div[contains(text(),'Send')]]]
+13:34:32.680 INFO - Executing: [find elements: By.xpath: //div[contains(text(),'Your message has been sent.')]])
+13:34:32.755 INFO - Done: [find elements: By.xpath: //div[contains(text(),'Your message has been sent.')]]
+13:34:33.259 INFO - Executing: [find elements: By.xpath: //div[contains(text(),'Your message has been sent.')]])
+13:34:33.271 INFO - Done: [find elements: By.xpath: //div[contains(text(),'Your message has been sent.')]]
+13:34:33.277 INFO - Executing: [find element: By.xpath: //div[contains(text(),'Your message has been sent.')]])
+13:34:33.300 INFO - Done: [find element: By.xpath: //div[contains(text(),'Your message has been sent.')]]
+13:34:33.306 INFO - Executing: [is displayed: 9 [[ChromeDriver: chrome on XP (b0765463c6fecc0f4e9f3181e911aa10)] -> xpath: //div[contains(text(),'Your message has been sent.')]]])
+13:34:33.330 INFO - Done: [is displayed: 9 [[ChromeDriver: chrome on XP (b0765463c6fecc0f4e9f3181e911aa10)] -> xpath: //div[contains(text(),'Your message has been sent.')]]]
+13:34:33.336 INFO - Executing: [find elements: By.cssSelector: span[id=link_vsm]])
+13:34:33.360 INFO - Done: [find elements: By.cssSelector: span[id=link_vsm]]
+13:34:33.366 INFO - Executing: [find element: By.cssSelector: span[id=link_vsm]])
+13:34:33.389 INFO - Done: [find element: By.cssSelector: span[id=link_vsm]]
+13:34:33.395 INFO - Executing: [click: 10 [[ChromeDriver: chrome on XP (b0765463c6fecc0f4e9f3181e911aa10)] -> css selector: span[id=link_vsm]]])
+13:34:33.442 INFO - Done: [click: 10 [[ChromeDriver: chrome on XP (b0765463c6fecc0f4e9f3181e911aa10)] -> css selector: span[id=link_vsm]]]
+13:34:33.450 INFO - Executing: [find elements: By.xpath: //div[@class='a3s']/div[@dir='ltr']])
+13:34:33.494 INFO - Done: [find elements: By.xpath: //div[@class='a3s']/div[@dir='ltr']]
+13:34:34.000 INFO - Executing: [find elements: By.xpath: //div[@class='a3s']/div[@dir='ltr']])
+13:34:34.058 INFO - Done: [find elements: By.xpath: //div[@class='a3s']/div[@dir='ltr']]
+13:34:34.564 INFO - Executing: [find elements: By.xpath: //div[@class='a3s']/div[@dir='ltr']])
+13:34:34.590 INFO - Done: [find elements: By.xpath: //div[@class='a3s']/div[@dir='ltr']]
+13:34:35.097 INFO - Executing: [find elements: By.xpath: //div[@class='a3s']/div[@dir='ltr']])
+13:34:35.108 INFO - Done: [find elements: By.xpath: //div[@class='a3s']/div[@dir='ltr']]
+13:34:35.612 INFO - Executing: [find elements: By.xpath: //div[@class='a3s']/div[@dir='ltr']])
+13:34:35.624 INFO - Done: [find elements: By.xpath: //div[@class='a3s']/div[@dir='ltr']]
+13:34:36.129 INFO - Executing: [find elements: By.xpath: //div[@class='a3s']/div[@dir='ltr']])
+13:34:36.140 INFO - Done: [find elements: By.xpath: //div[@class='a3s']/div[@dir='ltr']]
+13:34:36.644 INFO - Executing: [find elements: By.xpath: //div[@class='a3s']/div[@dir='ltr']])
+13:34:36.654 INFO - Done: [find elements: By.xpath: //div[@class='a3s']/div[@dir='ltr']]
+13:34:36.665 INFO - Executing: [take screenshot])
+13:34:36.987 INFO - Done: [take screenshot]
+13:34:37.017 INFO - Executing: [delete session: f872a8f4-aca3-4e68-8f86-c88941dc5aff])
+13:34:41.078 INFO - Done: [delete session: f872a8f4-aca3-4e68-8f86-c88941dc5aff]
+13:34:41.251 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Heroku App Functionality Suite, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]])
+13:34:41.253 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Heroku App Functionality Suite, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]
+Starting ChromeDriver (v2.9.248315) on port 18903
+13:34:42.376 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Heroku App Functionality Suite, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]]
+13:34:42.405 INFO - Executing: [maximise window])
+13:34:43.476 INFO - Done: [maximise window]
+13:34:43.482 INFO - Executing: [get: https://the-internet.herokuapp.com/])
+13:34:48.009 INFO - Done: [get: https://the-internet.herokuapp.com/]
+13:34:48.016 INFO - Executing: [find elements: By.cssSelector: [href='/windows']])
+13:34:48.057 INFO - Done: [find elements: By.cssSelector: [href='/windows']]
+13:34:48.067 INFO - Executing: [find element: By.cssSelector: [href='/windows']])
+13:34:48.096 INFO - Done: [find element: By.cssSelector: [href='/windows']]
+13:34:48.100 INFO - Executing: [click: 0 [[ChromeDriver: chrome on XP (4d4516f117edbb9c529f7836d40b87e3)] -> css selector: [href='/windows']]])
+13:34:48.147 INFO - Done: [click: 0 [[ChromeDriver: chrome on XP (4d4516f117edbb9c529f7836d40b87e3)] -> css selector: [href='/windows']]]
+13:34:48.158 INFO - Executing: [find elements: By.xpath: //a[contains(.,'Click Here')]])
+13:34:48.731 INFO - Done: [find elements: By.xpath: //a[contains(.,'Click Here')]]
+13:34:49.237 INFO - Executing: [find elements: By.xpath: //a[contains(.,'Click Here')]])
+13:34:49.247 INFO - Done: [find elements: By.xpath: //a[contains(.,'Click Here')]]
+13:34:49.253 INFO - Executing: [find element: By.xpath: //a[contains(.,'Click Here')]])
+13:34:49.276 INFO - Done: [find element: By.xpath: //a[contains(.,'Click Here')]]
+13:34:49.281 INFO - Executing: [click: 1 [[ChromeDriver: chrome on XP (4d4516f117edbb9c529f7836d40b87e3)] -> xpath: //a[contains(.,'Click Here')]]])
+13:34:49.326 INFO - Done: [click: 1 [[ChromeDriver: chrome on XP (4d4516f117edbb9c529f7836d40b87e3)] -> xpath: //a[contains(.,'Click Here')]]]
+13:34:50.332 INFO - Executing: [get window handles])
+13:34:50.337 INFO - Done: [get window handles]
+13:34:50.345 INFO - Executing: [switch to window: CDwindow-edefd339-9438-4b01-aca5-08db7ea492fc])
+13:34:50.374 INFO - Done: [switch to window: CDwindow-edefd339-9438-4b01-aca5-08db7ea492fc]
+13:34:52.379 INFO - Executing: [find element: By.xpath: //h3[contains(.,'New Window')]])
+13:34:52.422 INFO - Done: [find element: By.xpath: //h3[contains(.,'New Window')]]
+13:34:52.427 INFO - Executing: [get text: 2 [[ChromeDriver: chrome on XP (4d4516f117edbb9c529f7836d40b87e3)] -> xpath: //h3[contains(.,'New Window')]]])
+13:34:52.459 INFO - Done: [get text: 2 [[ChromeDriver: chrome on XP (4d4516f117edbb9c529f7836d40b87e3)] -> xpath: //h3[contains(.,'New Window')]]]
+13:34:52.464 INFO - Executing: [close window])
+13:34:52.525 INFO - Done: [close window]
+13:34:52.530 INFO - Executing: [get window handles])
+13:34:52.534 INFO - Done: [get window handles]
+13:34:52.544 INFO - Executing: [switch to window: CDwindow-6f2b783e-5c9f-46cb-945b-b08d35cad1a3])
+13:34:52.550 INFO - Done: [switch to window: CDwindow-6f2b783e-5c9f-46cb-945b-b08d35cad1a3]
+13:34:54.557 INFO - Executing: [find element: By.xpath: //a[contains(.,'Click Here')]])
+13:34:54.569 INFO - Done: [find element: By.xpath: //a[contains(.,'Click Here')]]
+13:34:54.574 INFO - Executing: [get text: 1 [[ChromeDriver: chrome on XP (4d4516f117edbb9c529f7836d40b87e3)] -> xpath: //a[contains(.,'Click Here')]]])
+13:34:54.602 INFO - Done: [get text: 1 [[ChromeDriver: chrome on XP (4d4516f117edbb9c529f7836d40b87e3)] -> xpath: //a[contains(.,'Click Here')]]]
+13:34:54.607 INFO - Executing: [delete session: b2eda87f-1468-4638-a736-df62499900a2])
+13:34:55.616 INFO - Done: [delete session: b2eda87f-1468-4638-a736-df62499900a2]
+13:34:55.634 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Heroku App Functionality Suite, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]])
+13:34:55.636 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Heroku App Functionality Suite, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]
+Starting ChromeDriver (v2.9.248315) on port 27085
+13:34:56.704 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Heroku App Functionality Suite, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]]
+13:34:56.724 INFO - Executing: [get: http://fullcalendar.io/])
+13:35:00.611 INFO - Done: [get: http://fullcalendar.io/]
+13:35:00.616 INFO - Executing: [find elements: By.xpath: //span[contains(.,'All Day Event')]])
+13:35:00.645 INFO - Done: [find elements: By.xpath: //span[contains(.,'All Day Event')]]
+13:35:02.649 INFO - Executing: [find elements: By.xpath: //span[contains(.,'All Day Event')]])
+13:35:02.659 INFO - Done: [find elements: By.xpath: //span[contains(.,'All Day Event')]]
+13:35:02.665 INFO - Executing: [find element: By.xpath: //span[contains(.,'All Day Event')]])
+13:35:02.688 INFO - Done: [find element: By.xpath: //span[contains(.,'All Day Event')]]
+13:35:02.695 INFO - Executing: [mousemove: 0 true])
+13:35:02.713 INFO - Done: [mousemove: 0 true]
+13:35:02.719 INFO - Executing: [mousedown: no args])
+13:35:02.724 INFO - Done: [mousedown: no args]
+13:35:02.734 INFO - Executing: [find elements: By.xpath: //span[contains(.,'Long Event')]])
+13:35:02.762 INFO - Done: [find elements: By.xpath: //span[contains(.,'Long Event')]]
+13:35:02.769 INFO - Executing: [find element: By.xpath: //span[contains(.,'Long Event')]])
+13:35:02.792 INFO - Done: [find element: By.xpath: //span[contains(.,'Long Event')]]
+13:35:02.797 INFO - Executing: [mousemove: 1 true])
+13:35:02.815 INFO - Done: [mousemove: 1 true]
+13:35:02.821 INFO - Executing: [mouseup: nothing])
+13:35:02.825 INFO - Done: [mouseup: nothing]
+13:35:04.830 INFO - Executing: [delete session: e5cbfbe7-c085-46e7-8bc3-e1879fabd17a])
+13:35:05.881 INFO - Done: [delete session: e5cbfbe7-c085-46e7-8bc3-e1879fabd17a]
