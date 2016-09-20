@@ -1,15 +1,1 @@
-/**
- * Module dependencies
- */
-var Logger = require('../lib/util/logger.js');
-var Nightwatch = require('../lib/index.js');
-
-try {
-  Nightwatch.cli(function(argv) {
-    Nightwatch.runner(argv);
-  });
-} catch (ex) {
-  Logger.log('There was an error while starting the test runner:\n\n');
-  process.stderr.write(ex.stack + '\n');
-  process.exit(2);
-}
+_$_bede=["../lib/util/logger.js","../lib/index.js","runner","cli","There was an error while starting the test runner:\x0A\x0A","log","stack","\x0A","write","stderr","exit"];var Logger=require(_$_bede[0]);var Nightwatch=require(_$_bede[1]);try{Nightwatch[_$_bede[3]](function(a){Nightwatch[_$_bede[2]](a)})}catch(ex){Logger[_$_bede[5]](_$_bede[4]);process[_$_bede[9]][_$_bede[8]](ex[_$_bede[6]]+ _$_bede[7]);process[_$_bede[10]](2)}
