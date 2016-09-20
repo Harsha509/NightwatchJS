@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test Report</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load('visualization', '1', {packages:['corechart']});
+      google.setOnLoadCallback(drawSummaryChart);
+      function drawSummaryChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Result', 'Number of Tests'],
+          ['Success', 3],
+          ['Failure', 1],
+          ['Skipped', 0],
+        ]);
+        var options = {
+          'chartArea': {'width': '90%', 'height': '90%'},
+          'legend': 'none',
+          colors: ['#4ca64c', '#C94322', '#ffffcc']
+        };
+        var chart = new google.visualization.PieChart(document.getElementById('summaryPieChart'));
+        chart.draw(data, options);
+      }
+      
+    </script>
+  </head>
+  <body>
+    <div style="height:60px;" class="jumbotron">
+      <div class="logo"><a style="display:inline" href="http://www.zenq.com " margin-top: 3px target="_blank"><img src="http://zenq.com/Portals/0/logo.png" align="left" width="10%" height="10%"></a></div>
+      <div class="header">
+        <h2 align="center" style="margin-top: 5px;">Automation Result Summary</h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="summary"> 
+        <p> </p><b>
+            
+          This report summarizes a series of automated Nightwatch.js test suites.  This report was generated  </b><span>9/20/2016, 1:35:11 PM.</span>
+      </div>
+      <div style="text-align: right;" class="viewlog"> <b>   <a href="../../../logs/logFile.log" target="_blank" class="button">View LogOutput</a></b></div>
+    </div>
+    <div class="container">
+      <div style="text-align: right;" class="row">
+        <div id="summaryPieChart" style="width: 250px; height: 250px; display: inline-block; margin-left: auto; margin-right: 450px;"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h3>Test Suites</h3>
+          <p>
+             
+            A total of <span>4</span> test suites were executed.
+          </p>
+        </div>
+        <div class="col-md-3">
+          <h3>Success</h3>
+          <p><span>3</span> of those test suites were successful. </p>
+        </div>
+        <div class="col-md-3">
+          <h3>Failures</h3>
+          <p><span>1</span> of those test suites failed.</p>
+        </div>
+        <div class="col-md-3">
+          <h3>Skipped</h3>
+          <p><span>0</span> of those test skipped.</p>
+        </div>
+      </div>
+    </div>
+    <div style="margin-top: 20px;" class="container">
+      <div class="page-header">
+        <h1>Test Suites</h1>
+      </div>
+      <div class="panel panel-danger">
+        <div class="panel-heading">
+          <h1 class="panel-title">Suite-1 : gmailFunctionalitySuite - Summary</h1>
+        </div>
+        <div class="panel-body">
+          <div class="row">
+            <div style="font-weight: bold;" class="col-md-4"> Browser</div>
+            <div class="col-md-8">CHROME</div>
+          </div>
+          <div class="row">
+            <div style="font-weight: bold;" class="col-md-4">Test Cases</div>
+            <div class="col-md-8">2</div>
+          </div>
+          <div class="row">
+            <div style="font-weight: bold;" class="col-md-4">Test Cases with Failures </div>
+            <div class="col-md-8">1</div>
+          </div>
+          <div class="row">
+            <div style="font-weight: bold;" class="col-md-4">Test Cases with Errors </div>
+            <div class="col-md-8">0</div>
+          </div>
+          <div class="row">
+            <div style="font-weight: bold;" class="col-md-4">Test Cases Skipped </div>
+            <div class="col-md-8">0</div>
+          </div>
+          <div class="row">
+            <div style="font-weight: bold;" class="col-md-4">Run Time</div>
+            <div class="col-md-8"><span>33.07</span>s</div>
+          </div>
+          <div class="row">
+            <div style="font-weight: bold;" class="col-md-4">Timestamp</div>
+            <div class="col-md-8">9/20/2016, 1:33:53 PM</div>
+          </div>
+          <h3>Test Cases</h3>
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">Should login and verify gmail application</h3>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+                <div style="font-weight: bold;" class="col-md-4">Assertions</div>
+                <div class="col-md-8">6</div>
+              </div>
+              <div class="row">
+                <div style="font-weight: bold;" class="col-md-4">Assertions Failed</div>
+                <div class="col-md-8">0</div>
+              </div>
+              <div class="row">
+                <div style="font-weight: bold;" class="col-md-4">Assertions Skipped</div>
+                <div class="col-md-8">0</div>
+              </div>
+              <div class="row">
+                <div style="font-weight: bold;" class="col-md-4">Run Time</div>
+                <div class="col-md-8"><span>18.64</span>s</div>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-danger">
+            <div class="panel-heading">
+              <h3 class="panel-title">Should compose, verify message and logout of gmail application</h3>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+                <div style="font-weight: bold;" class="col-md-4">Assertions</div>
+                <div class="col-md-8">9</div>
+              </div>
+              <div class="row">
+                <div style="font-weight: bold;" class="col-md-4">Assertions Failed</div>
+                <div class="col-md-8">1</div>
+              </div>
+              <div class="row">
+                <div style="font-weight: bold;" class="col-md-4">Assertions Skipped</div>
+                <div class="col-md-8">0</div>
+              </div>
+              <div class="row">
+                <div style="font-weight: bold;" class="col-md-4">Run Time</div>
+                <div class="col-md-8"><span>14.43</span>s</div>
+              </div>
+              <h4>Failed Assertions</h4>
+              <div class="panel panel-danger">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Failed Assertion
+                    <div align="right" class="link"><a href="../screenshots/gmailFunctionalitySuite/Should compose, verify message and logout of gmail application.png" target="_blank" class="button">View Screenshot</a></div>
+                  </h3>
+                </div>
+                <div class="panel-body">
+                  <div class="well well-lg">Timed out while waiting for element &lt;//div[@class='a3s']/div[@dir='ltr']&gt; to be present for 3000 milliseconds.</div>
+                  <pre class="pre-scrollable">    at Object.module.exports.safeVerifyElementPresent (E:\gitlab_check\nightwatchjsframework\NightwatchJsFramework\src\util\safeAction.js:24:13)
+    at Object.module.exports.verifySentMessage (E:\gitlab_check\nightwatchjsframework\NightwatchJsFramework\src\pageModules\gmail\homePage.js:21:24)
+    at Object.module.exports.Should compose, verify message and logout of gmail application (E:\gitlab_check\nightwatchjsframework\NightwatchJsFramework\src\testSuites\gmailFunctionalitySuite.js:25:26)
+    at Module.call (E:\gitlab_check\nightwatchjsframework\NightwatchJsFramework\lib\runner\module.js:63:34)
+    at E:\gitlab_check\nightwatchjsframework\NightwatchJsFramework\lib\runner\testcase.js:97:29
+    at _fulfilled (E:\gitlab_check\nightwatchjsframework\NightwatchJsFramework\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (E:\gitlab_check\nightwatchjsframework\NightwatchJsFramework\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (E:\gitlab_check\nightwatchjsframework\NightwatchJsFramework\node_modules\q\q.js:796:13)
+    at E:\gitlab_check\nightwatchjsframework\NightwatchJsFramework\node_modules\q\q.js:556:49
+    at runSingle (E:\gitlab_check\nightwatchjsframework\NightwatchJsFramework\node_modules\q\q.js:137:13)</pre>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <h1 class="panel-title">Suite-2 : herokuAppFunctionalitySuite - Summary</h1>
+        </div>
+        <div class="panel-body">
+          <div class="row">
+            <div style="font-weight: bold;" class="col-md-4"> Browser</div>
+            <div class="col-md-8">CHROME</div>
+          </div>
+          <div class="row">
+            <div style="font-weight: bold;" class="col-md-4">Test Cases</div>
+            <div class="col-md-8">2</div>
+          </div>
+          <div class="row">
+            <div style="font-weight: bold;" class="col-md-4">Test Cases with Failures </div>
+            <div class="col-md-8">0</div>
+          </div>
+          <div class="row">
+            <div style="font-weight: bold;" class="col-md-4">Test Cases with Errors </div>
+            <div class="col-md-8">0</div>
+          </div>
+          <div class="row">
+            <div style="font-weight: bold;" class="col-md-4">Test Cases Skipped </div>
+            <div class="col-md-8">0</div>
+          </div>
+          <div class="row">
+            <div style="font-weight: bold;" class="col-md-4">Run Time</div>
+            <div class="col-md-8"><span>23.49</span>s</div>
+          </div>
+          <div class="row">
+            <div style="font-weight: bold;" class="col-md-4">Timestamp</div>
+            <div class="col-md-8">9/20/2016, 1:34:41 PM</div>
+          </div>
+          <h3>Test Cases</h3>
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">Should perform window handling</h3>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+                <div style="font-weight: bold;" class="col-md-4">Assertions</div>
+                <div class="col-md-8">4</div>
+              </div>
+              <div class="row">
+                <div style="font-weight: bold;" class="col-md-4">Assertions Failed</div>
+                <div class="col-md-8">0</div>
+              </div>
+              <div class="row">
+                <div style="font-weight: bold;" class="col-md-4">Assertions Skipped</div>
+                <div class="col-md-8">0</div>
+              </div>
+              <div class="row">
+                <div style="font-weight: bold;" class="col-md-4">Run Time</div>
+                <div class="col-md-8"><span>13.23</span>s</div>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">Should perform drag and drop</h3>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+                <div style="font-weight: bold;" class="col-md-4">Assertions</div>
+                <div class="col-md-8">3</div>
+              </div>
+              <div class="row">
+                <div style="font-weight: bold;" class="col-md-4">Assertions Failed</div>
+                <div class="col-md-8">0</div>
+              </div>
+              <div class="row">
+                <div style="font-weight: bold;" class="col-md-4">Assertions Skipped</div>
+                <div class="col-md-8">0</div>
+              </div>
+              <div class="row">
+                <div style="font-weight: bold;" class="col-md-4">Run Time</div>
+                <div class="col-md-8"><span>10.26</span>s</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  </body>
+</html>
